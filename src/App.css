@@ -1,0 +1,60 @@
+.todo-content{
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+.item{
+  text-align: left;
+  
+}
+input{
+  width: 80%;
+}
+.row1{
+  margin:10px 3px;
+}
+.button1{
+  max-width: 70px;
+}
+
+.todo-content {
+  font-size: 2.5rem;
+  margin: 20px 0;
+  font-weight: bold;
+  color: #4a90e2;
+}
+
+.row1 {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f7f9fc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.button1 {
+  width: 100%;
+  font-weight: 500;
+}
+
+input[type="text"], input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh; /* Or 100vh if you want it vertically centered on full screen */
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
